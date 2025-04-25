@@ -1,0 +1,9 @@
+client/.env
+
+# Ignore backend env
+server/.env
+
+# Node modules
+node_modules/
+client/node_modules/
+server/node_modules/
