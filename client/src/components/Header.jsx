@@ -53,7 +53,7 @@ if(user){
   initial={{opacity:0}}
   animate={{opacity:1}}
   transition={{default:{duration:0.2},opacity:{delay:0.8,duration:1 }}}>
-  Generate Images
+  Generate Images by Writeon
   <img className='h-6' src={assets.star_group} alt="" />
 </motion.button>
 
