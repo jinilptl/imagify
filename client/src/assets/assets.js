@@ -68,7 +68,7 @@ export const testimonialsData = [
         image:profile_img_2,
         name:'Jinil Patel',
         role:'Mern Stack Developer',
-        stars:5,
+        stars:4,
         text:`I've been using bg.removal for nearly two years, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.`
     },
     {
