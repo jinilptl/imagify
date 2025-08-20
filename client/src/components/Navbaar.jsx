@@ -43,7 +43,7 @@ const Navbaar = () => {
           <div className="flex items-center gap-2 sm:gap-5">
             <p
               onClick={() => {
-                navigate("/buy");
+                navigate("/buy"); 
               }}
               className=" cursor-pointer"
             >
