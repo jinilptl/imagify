@@ -18,6 +18,8 @@ const Login = () => {
     e.preventDefault();
     try {
       if (state === "Login") {
+        console.log('login call');
+           
         const { data } = await axios.post(
           "http://localhost:4000/api/v1/user/login",
           { email, password },

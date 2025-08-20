@@ -1,4 +1,4 @@
-import express from "express";
+import express, { urlencoded } from "express";
 import cors from "cors"
 import "dotenv/config"
 import DbConnect from "./config/database.js";
@@ -10,9 +10,10 @@ const PORT=process.env.PORT||4000;
 const app=express();
 
 app.use(express.json())
+app.use(express.urlencoded({extended:true}))
 
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin:"http://localhost:5173",
     credentials: true
   }));
 

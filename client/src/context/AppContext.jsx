@@ -11,7 +11,7 @@ const AppContextProvider=({children})=>{
     const backendUrl= import.meta.env.BACKEND_URL;
     const navigate = useNavigate();
 
-    console.log("backend url is",backendUrl);
+    // console.log("backend url is",backendUrl);
     
 
    
